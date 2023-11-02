@@ -12,6 +12,15 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <org.telegram.telegrambots>6.1.0</org.telegram.telegrambots>
     </properties>
 
+
+    <dependencies>
+        <dependency>
+            <groupId>org.telegram</groupId>
+            <artifactId>telegrambots</artifactId>
+            <version>${org.telegram.telegrambots}</version>
+        </dependency>
+    </dependencies>
 </project>
