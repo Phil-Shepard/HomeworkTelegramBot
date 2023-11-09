@@ -2,9 +2,15 @@ package ru.shamonin.bots;
 
 import ru.shamonin.Bot;
 
-public class DiscordBot extends Bot {
+public class DiscordBot implements Bot {
+
     @Override
-    public String handleMessage(String message) {
-        return "Ваше сообщение: " + message;
+    public void start() {
+
+    }
+
+    @Override
+    public void sendMessage(String message) {
+
     }
 }

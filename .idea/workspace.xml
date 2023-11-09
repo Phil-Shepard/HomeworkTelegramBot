@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62659dd2-6632-4e49-82c1-b0dad2a14055" name="Changes" comment="Сделал бота в телеграме">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/shamonin/Bot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/shamonin/Logic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/shamonin/bots/BotVK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/shamonin/bots/DiscordBot.java" afterDir="false" />
+    <list default="true" id="62659dd2-6632-4e49-82c1-b0dad2a14055" name="Changes" comment="Переделал Бота">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/shamonin/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/shamonin/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/shamonin/bot/TelegramBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/shamonin/bots/TelegramBot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/shamonin/Bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/shamonin/Bot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/shamonin/Logic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/shamonin/Logic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/shamonin/bots/BotVK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/shamonin/bots/BotVK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/shamonin/bots/DiscordBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/shamonin/bots/DiscordBot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/shamonin/bots/TelegramBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/shamonin/bots/TelegramBot.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +77,8 @@
       <updated>1698938052100</updated>
       <workItem from="1698938054486" duration="3219000" />
       <workItem from="1699515588201" duration="2198000" />
-      <workItem from="1699529968681" duration="1642000" />
+      <workItem from="1699529968681" duration="5929000" />
+      <workItem from="1699558181468" duration="1364000" />
     </task>
     <task id="LOCAL-00001" summary="Сделал бота в телеграме">
       <created>1698941256837</created>
@@ -87,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698941256838</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Переделал Бота">
+      <created>1699531718640</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1699531718640</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +125,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Сделал бота в телеграме" />
-    <option name="LAST_COMMIT_MESSAGE" value="Сделал бота в телеграме" />
+    <MESSAGE value="Переделал Бота" />
+    <option name="LAST_COMMIT_MESSAGE" value="Переделал Бота" />
   </component>
 </project>

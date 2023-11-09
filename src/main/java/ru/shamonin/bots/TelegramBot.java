@@ -1,13 +1,16 @@
 package ru.shamonin.bots;
 
-
 import ru.shamonin.Bot;
 
-public class TelegramBot extends Bot {
-
+public class TelegramBot implements Bot {
 
     @Override
-    public String handleMessage(String message) {
-        return "Ваше сообщение: " + message;
+    public void start() {
+
+    }
+
+    @Override
+    public void sendMessage(String message) {
+
     }
 }

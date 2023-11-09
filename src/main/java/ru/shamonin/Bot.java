@@ -1,9 +1,15 @@
 package ru.shamonin;
 
-abstract public class Bot implements Logic {
-    @Override
-    public String handleMessage(String message){
-        return message;
-    }
+public interface Bot {
+    /**
+     *
+     * Запуск бота
+     */
+    public void start();
 
+    /**
+     *
+     * Отправка сообщения
+     */
+    public void sendMessage(String message);
 }
