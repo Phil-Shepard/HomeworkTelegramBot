@@ -1,11 +1,9 @@
 package ru.shamonin;
 
-public interface Bot {
-    /**
-     *
-     * Запуск бота
-     */
-    public void start();
+/**
+ * интерфейс бота
+ */
+public interface Bot extends Logic{
 
     /**
      *

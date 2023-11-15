@@ -1,19 +1,12 @@
 package ru.shamonin;
 
-public class Logic {
+/**
+ * класс логики бота
+ */
+public interface Logic {
     /**
      *
      * Обработка сообщения
      */
-    public String handleMessage(String message){
-        return "ваше сообщение" + message;
-    }
-
-    /**
-     *
-     * Запуск бота
-     */
-    public void startBot(Bot bot){
-        bot.start();
-    }
+    public String handleMessage(String message);
 }
