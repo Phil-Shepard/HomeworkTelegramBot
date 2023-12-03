@@ -3,10 +3,16 @@ package ru.shamonin;
 /**
  * класс логики бота
  */
-public interface Logic {
-    /**
-     *
-     * Обработка сообщения
-     */
-    public String handleMessage(String message);
+public class Logic {
+
+    private final Bot bot;
+
+    public Logic(Bot bot) {
+        this.bot = bot;
+    }
+
+    public String handleMessage(String message) {
+        return message;
+    }
+
 }

@@ -1,11 +1,14 @@
 package ru.shamonin.bots;
 
 import ru.shamonin.Bot;
+import ru.shamonin.Logic;
 
 /**
  * Бот ВК
  */
 public class BotVK implements Bot {
+
+    Logic logic;
 
     public void start() {
 
@@ -16,8 +19,8 @@ public class BotVK implements Bot {
 
     }
 
-    @Override
+
     public String handleMessage(String message) {
-        return null;
+        return logic.handleMessage(message);
     }
 }

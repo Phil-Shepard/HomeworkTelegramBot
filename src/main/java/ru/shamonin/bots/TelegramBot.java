@@ -1,12 +1,14 @@
 package ru.shamonin.bots;
 
 import ru.shamonin.Bot;
+import ru.shamonin.Logic;
 
 /**
  * Бот Телеграмма
  */
 public class TelegramBot implements Bot {
 
+    Logic logic;
     public void start() {
 
     }
@@ -16,8 +18,8 @@ public class TelegramBot implements Bot {
 
     }
 
-    @Override
+
     public String handleMessage(String message) {
-        return null;
+        return logic.handleMessage(message);
     }
 }

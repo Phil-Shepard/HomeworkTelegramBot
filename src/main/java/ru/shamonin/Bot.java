@@ -3,11 +3,11 @@ package ru.shamonin;
 /**
  * интерфейс бота
  */
-public interface Bot extends Logic{
+public interface Bot{
 
     /**
      *
      * Отправка сообщения
      */
-    public void sendMessage(String message);
+    void sendMessage(String message);
 }
